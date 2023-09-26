@@ -1,3 +1,9 @@
-const App = () => <h1 className="text-2xl text-blue-400"> Hello </h1>;
+import Navbar from "./components/Navbar";
+
+const App = () => (
+  <>
+    <Navbar />
+  </>
+);
 
 export default App;
