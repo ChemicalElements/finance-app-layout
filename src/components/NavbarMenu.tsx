@@ -9,7 +9,7 @@ const NavbarMenu = ({ className }: propType) => (
   <aside
     className={
       className +
-      " fixed bg-black top-0 left-0 w-[60%] h-full border-r border-r-gray-900 p-4"
+      " fixed bg-black top-0 left-0 w-[60%] h-full border-r border-r-gray-900 p-4 ease-in-out duration-500"
     }
   >
     <NavbarBrand />

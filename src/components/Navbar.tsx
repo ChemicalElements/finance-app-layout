@@ -23,9 +23,7 @@ const Navbar = () => {
 
       <div className="md:hidden">
         <NavbarButton open={isMenuOpen} onClick={handleMenu} />
-        <NavbarMenu
-          className={isMenuOpen ? "ease-in-out duration-500" : "left-[-100%]"}
-        />
+        <NavbarMenu className={isMenuOpen ? "" : "left-[-100%]"} />
       </div>
     </nav>
   );
