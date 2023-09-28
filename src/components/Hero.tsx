@@ -3,7 +3,7 @@ import Typed from "react-typed";
 const Hero = () => {
   return (
     <>
-      <section className="max-w-3xl -mt-24 mx-auto w-full h-screen text-center flex flex-col justify-center">
+      <section className="max-w-3xl pb-24 mx-auto w-full h-screen text-center flex flex-col justify-center">
         <h2 className="uppercase text-green-300 font-semibold">
           Growing with data analytics
         </h2>
