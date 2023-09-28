@@ -1,10 +1,16 @@
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Analytics from "./components/Analytics";
 
 const App = () => (
   <>
-    <Navbar />
-    <Hero />
+    <header>
+      <Navbar />
+    </header>
+    <main>
+      <Hero />
+      <Analytics />
+    </main>
   </>
 );
 
