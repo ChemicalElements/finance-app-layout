@@ -3,7 +3,7 @@ import Typed from "react-typed";
 const Hero = () => {
   return (
     <>
-      <main className="max-w-3xl -mt-24 mx-auto w-full h-screen text-center flex flex-col justify-center">
+      <section className="max-w-3xl -mt-24 mx-auto w-full h-screen text-center flex flex-col justify-center">
         <h2 className="uppercase text-green-300 font-semibold">
           Growing with data analytics
         </h2>
@@ -23,7 +23,7 @@ const Hero = () => {
         <button className="bg-green-300 mt-8 w-48 rounded-lg py-3 text-black font-semibold self-center">
           Get Started
         </button>
-      </main>
+      </section>
     </>
   );
 };
