@@ -7,7 +7,7 @@ type PropsType = {
 
 const NavbarButton = ({ open, onClick }: PropsType) => {
   return (
-    <button onClick={onClick}>
+    <button data-cy="navbar-button" onClick={onClick}>
       {open ? (
         <AiOutlineClose className="text-2xl" />
       ) : (

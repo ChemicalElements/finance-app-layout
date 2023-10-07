@@ -12,10 +12,10 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex justify-between items-center p-4 max-w-5xl m-auto">
+    <nav className="m-auto flex max-w-5xl items-center justify-between p-4">
       <NavbarBrand />
 
-      <ul className="gap-8 hidden md:flex">
+      <ul className="hidden gap-8 md:flex">
         {navbarLinks.map(({ label, path }) => (
           <li key={path}>{label}</li>
         ))}

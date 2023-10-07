@@ -7,13 +7,14 @@ type propType = {
 
 const NavbarMenu = ({ className }: propType) => (
   <aside
+    data-cy="navbar-menu"
     className={
       className +
-      " fixed bg-black top-0 left-0 w-[60%] h-full border-r border-r-gray-900 p-4 ease-in-out duration-500"
+      " fixed left-0 top-0 h-full w-[60%] border-r border-r-gray-900 bg-black p-4 duration-500 ease-in-out"
     }
   >
     <NavbarBrand />
-    <ul className="mt-8 flex flex-col gap-4 uppercase [&>li]:border-b [&>li]:p-4 [&>li]:border-b-gray-800">
+    <ul className="mt-8 flex flex-col gap-4 uppercase [&>li]:border-b [&>li]:border-b-gray-800 [&>li]:p-4">
       {navbarLinks.map(({ label, path }) => (
         <li key={path}>{label}</li>
       ))}
