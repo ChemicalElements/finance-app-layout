@@ -1,6 +1,7 @@
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Analytics from "./components/Analytics";
+import Newsletter from "./components/Newsletter";
 
 const App = () => (
   <>
@@ -10,6 +11,7 @@ const App = () => (
     <main>
       <Hero />
       <Analytics />
+      <Newsletter />
     </main>
   </>
 );
