@@ -15,8 +15,8 @@ const App = () => (
       <Analytics />
       <Newsletter />
       <Cards />
-      <Footer />
     </main>
+    <Footer />
   </>
 );
 
